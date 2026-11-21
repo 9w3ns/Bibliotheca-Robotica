@@ -11,3 +11,10 @@ replit.nix
 
 # never publish the papers themselves
 *.pdf
+
+# share the vault settings in content/ so people can open it in Obsidian,
+# but keep each person's own layout and installed plugins out of the repo
+!content/.obsidian/
+content/.obsidian/workspace*.json
+content/.obsidian/plugins/
+content/.obsidian/community-plugins.json

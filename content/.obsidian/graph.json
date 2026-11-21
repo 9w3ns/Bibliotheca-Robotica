@@ -1,0 +1,34 @@
+{
+  "colorGroups": [
+    {
+      "query": "path:Papers",
+      "color": {
+        "a": 1,
+        "rgb": 5016565
+      }
+    },
+    {
+      "query": "path:Concepts",
+      "color": {
+        "a": 1,
+        "rgb": 15898954
+      }
+    },
+    {
+      "query": "path:People",
+      "color": {
+        "a": 1,
+        "rgb": 2600544
+      }
+    },
+    {
+      "query": "file:index",
+      "color": {
+        "a": 1,
+        "rgb": 15423319
+      }
+    }
+  ],
+  "showAttachments": false,
+  "showOrphans": true
+}
