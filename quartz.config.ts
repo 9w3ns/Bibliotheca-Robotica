@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "YOUR-GITHUB-USERNAME.github.io/robotic-bibliotheca",
+    baseUrl: "9w3ns.github.io/Bibliotheca-Robotica",
     ignorePatterns: ["private", "templates", ".obsidian", "**/*.pdf"],
     defaultDateType: "modified",
     theme: {

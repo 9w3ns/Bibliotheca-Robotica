@@ -1,9 +1,9 @@
 @echo off
 REM Copies your Obsidian notes (not the PDFs) from the vault into this site's content folder.
-REM Run this, then commit and push in GitHub Desktop.
-REM Assumes this site folder sits next to the "Robotic Bibliotheca" vault folder.
+REM Run this, then commit and push from Antigravity.
+REM The VAULT line below points to your Obsidian vault.
 
-set VAULT=%~dp0..\Robotic Bibliotheca
+set VAULT=C:\Users\9w3n\Desktop\ROBOTICS ; PERSONAL TRIAL AND ERROR\Robotic Bibliotheca
 set CONTENT=%~dp0content
 
 robocopy "%VAULT%" "%CONTENT%" *.md *.png *.jpg *.jpeg *.gif *.svg /S /XD .obsidian .trash /XF Home.md /NFL /NDL /NJH /NJS
