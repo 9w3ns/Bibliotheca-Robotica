@@ -7,7 +7,8 @@ set VAULT=C:\Users\9w3n\Desktop\ROBOTICS ; PERSONAL TRIAL AND ERROR\Robotic Bibl
 set CONTENT=%~dp0content
 
 robocopy "%VAULT%" "%CONTENT%" *.md *.png *.jpg *.jpeg *.gif *.svg /S /XD .obsidian .trash /XF Home.md /NFL /NDL /NJH /NJS
+copy /Y "%VAULT%\Home.md" "%CONTENT%\index.md" >nul
 echo.
-echo Notes copied into the content folder. PDFs were left out.
+echo Notes copied into the content folder (Home.md became the site homepage). PDFs were left out.
 echo Note: if you delete a note in the vault, delete it from content too.
 pause
